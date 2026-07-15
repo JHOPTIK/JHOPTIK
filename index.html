@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>JH-OPTIK | Fashion Eyewear Premium</title>
+
+
+<!-- SEO JHOPTIK -->
+
+<meta name="description" content="JHOPTIK menyediakan koleksi kacamata fashion, frame premium, dan layanan konsultasi lensa di Metro Indah Mall dan Jatinangor Town Square.">
+
+<meta name="keywords" content="JHOPTIK, toko kacamata Bandung, kacamata fashion, frame kacamata, lensa kacamata, optik Bandung">
+
+<meta name="author" content="JHOPTIK">
+
+
+<!-- Preview saat dibagikan WhatsApp -->
+
+<meta property="og:title" content="JHOPTIK - Fashion Eyewear">
+
+<meta property="og:description" content="Koleksi kacamata fashion dan lensa berkualitas.">
+
+<meta property="og:image" content="images/banner.jpg">
+
+<meta property="og:type" content="website">
+
+
+<!-- Logo kecil di browser -->
+
+<link rel="icon" href="images/logo.png">
+
+
+<!-- CSS -->
+
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+
+<body>
+
+
+<video id="bg-video" autoplay muted loop playsinline>
+    <source src="video/background.mp4" type="video/mp4">
+</video>
+
+<div class="overlay"></div>
+
+
+
+<header>
+
+<div class="logo">
+    <span>J</span>
+    <span>H</span>
+    <span>-</span>
+    <span>O</span>
+    <span>P</span>
+    <span>T</span>
+    <span>I</span>
+    <span>K</span>
+</div>
+
+<nav>
+
+<a href="index.html">Home</a>
+
+<a href="koleksi.html">Koleksi</a>
+
+<a href="promo.html">Promo</a>
+
+<a href="cabang.html">Cabang</a>
+
+<a href="kontak.html">Kontak</a>
+
+</nav>
+
+<a class="wa-btn"
+href="https://wa.me/6281389664022"
+target="_blank">
+
+Whatsapp
+
+</a>
+
+<button class="menu-btn">
+☰
+</button>
+
+</header>
+
+
+
+
+<section class="hero">
+
+<video autoplay muted loop playsinline class="hero-video">
+    <source src="video/background.mp4" type="video/mp4">
+</video>
+
+<div class="hero-overlay"></div>
+
+<div class="hero-content">
+
+<h1 class="hero-title" id="typing"></h1>
+
+<p class="hero-subtitle">
+    Fashion Eyewear Premium
+</p>
+
+</div>
+
+<div class="scroll-down">
+
+↓
+
+</div>
+
+</div>
+
+</section>
+
+
+
+
+
+<!-- PROMO -->
+
+<section class="promo">
+
+
+<h2>
+Promo JHOPTIK
+</h2>
+
+
+<p>
+
+ Promo frame pilihan  
+<br>
+
+ Paket frame + lensa  
+<br>
+
+ Konsultasi ukuran mata
+
+</p>
+
+
+</section>
+
+
+
+
+
+
+
+<section class="branch">
+
+
+<h2>
+Kunjungi Toko Kami
+</h2>
+
+
+<p>
+📍 Metro Indah Mall LT LG A2
+</p>
+
+
+<p>
+📍 Jatinangor Town Square LT 1
+</p>
+
+
+</section>
+
+
+
+
+
+
+<!-- CONTACT -->
+
+
+<section class="contact">
+    <h2>Hubungi JHOPTIK</h2>
+
+    <p>
+        📞
+        <a href="tel:+6281389664022">
+            0813-8966-4022
+        </a>
+    </p>
+
+<p>
+    <i class="fa-brands fa-instagram"></i>
+    Instagram : @jhoptik
+</p>
+
+<p>
+    <i class="fa-brands fa-tiktok"></i>
+    TikTok : @jhoptik_
+</p>
+
+<a class="wa-button"
+   href="https://wa.me/6281389664022"
+   target="_blank"
+   rel="noopener noreferrer">
+
+   <i class="fa-brands fa-whatsapp"></i>
+   WhatsApp
+
+</a>
+</section>
+
+
+
+<footer>
+
+© 2026 JHOPTIK Fashion Eyewear
+
+</footer>
+
+<script>
+
+const text="SELAMAT DATANG DI JHOPTIK";
+
+let i=0;
+
+function ketik(){
+
+    if(i<text.length){
+
+        document.getElementById("typing").innerHTML+=text.charAt(i);
+
+        i++;
+
+        setTimeout(ketik,90);
+
+    }
+
+}
+
+ketik();
+
+</script>
+
+</body>
+</html>
+
